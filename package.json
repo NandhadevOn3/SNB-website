@@ -3,13 +3,17 @@
   "version": "1.0.0",
   "description": "SNB static page",
   "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
+
   "author": "Nandha Balan B",
   "license": "ISC",
   "dependencies": {
     "express": "^4.17.1",
     "path": "^0.12.7"
+  },
+  "engines": {
+    "node": "v14.17.0"
+  },
+  "scripts": {
+    "start": "node index.js"
   }
 }
