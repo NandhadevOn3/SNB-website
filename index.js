@@ -1,7 +1,7 @@
 var express = require('express')
 var app = express()
 const path = require('path');
-
+//Sample comment
 app.use('/static', express.static(path.join(__dirname, 'static')))
 app.use(express.static('static'))
  
